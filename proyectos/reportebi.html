@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto 1 - Linares</title>
+  <link rel="stylesheet" href="../style.css">
+
+  <style>
+    /* Solo mover la lista para que arranque donde empieza el párrafo */
+    .section p {
+      max-width: 1220px;   /* ancho cómodo para leer (puedes quitarlo si no lo quieres) */
+      margin: 0 auto;     /* centrar párrafo en la sección */
+      text-align: left;
+    }
+
+    .section ul {
+      margin-top: 15px;
+      margin-left: calc(50% - 610px); /* mismo centrado que el párrafo (900px / 2) */
+      max-width: 900px;
+      text-align: left;
+      list-style: none;   /* quitamos viñeta por defecto */
+      padding-left: 0;
+    }
+
+    .section h2 {
+      text-align: center; /* título centrado */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 class="logo">Linares<span>.</span></h1>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../index.html#proyectos">Proyectos</a></li>
+        <li><a href="../index.html#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="section">
+    <h2>📊 Proyecto 1: Reporte BI</h2>
+
+    <p>
+      Este proyecto consistió en el desarrollo de un reporte interactivo en Power BI para 
+      analizar el desempeño financiero de una empresa. El reporte incluye indicadores clave 
+      relacionados con:
+    </p>
+
+    <ul>
+      <li>💰 Evolución de los ingresos</li>
+      <li>💸 Análisis de los gastos</li>
+      <li>📉 Cálculo del margen de ganancia</li>
+      <li>📊 Visualización comparativa por períodos</li>
+    </ul>
+
+    <img src="../img/reportebi.png" alt="Gráfico del proyecto" style="margin-top:20px; border-radius:10px; max-width:80%;">
+
+    <p style="margin-top:20px;">
+      Herramientas utilizadas: <b>Power BI</b>.
+    </p>
+    <a href="../index.html#proyectos" class="back-btn">⬅️ Volver</a>
+  </section>
+
+  <footer>
+    <p>© 2025 Linares - Analista de Datos</p>
+  </footer>
+</body>
+</html>

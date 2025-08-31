@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio - Linares Jorge Brito</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="img/portafolio.png">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav>
+      <h1 class="logo">LinaresJorge<span>.</span></h1>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Inicio -->
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <h2>¡Hola! Soy <span>Linares</span> 👋</h2>
+      <p>Analista y científico de datos apasionado por transformar datos en decisiones.</p>
+      <button onclick="scrollToSection('proyectos')">🚀 Ver mis proyectos</button>
+    </div>
+  </section>
+
+  <!-- Sobre mí -->
+  <section id="sobre-mi" class="section">
+    <h2>Sobre mí</h2>
+    <p>Soy egresado del ITLA en análisis y ciencia de los datos. 
+       He realizado análisis descriptivos, predictivos y prescriptivos 
+       utilizando <b>Python</b>, <b>R</b> y herramientas de visualización.</p>
+  </section>
+
+  <!-- Proyectos (Carrusel) -->
+  <section id="proyectos" class="section">
+    <h2>Mis proyectos</h2>
+    <div class="carousel-container">
+      <button class="carousel-btn prev">⬅</button>
+      <div class="carousel">
+        <div class="card">
+          <h3>📊 Reporte PowerBI</h3>
+          <p>Análisis de los ingresos, gastos y margende ganancia.</p>
+          <a href="proyectos/reportebi.html">🔗 Ver más</a>
+        </div>
+
+        <div class="card">
+          <h3>📗 Dashboard Excel</h3>
+          <p>Dashboard Ventas</p>
+          <a href="proyectos/dashexcel.html">🔗 Ver más</a>
+        </div>
+
+        <div class="card">
+          <h3>🛢️ Manejo de SQL Server </h3>
+          <p>Envío de datos entre gestores</p>
+          <a href="proyectos/basesdedatos.html">🔗 Ver más</a>
+        </div>
+        <div class="card">
+          <h3>🚀 FastAPI</h3>
+          <p>App Web para captura y gestión de datos</p>
+          <a href="proyectos/fastapi.html">🔗 Ver más</a>
+        </div>
+        <div class="card">
+          <h3>🤖 Modelos predictivos</h3>
+          <p>Modelo de Machine Learning en Python(prontamente....)</p>
+          <a href="#">🔗 Ver más</a>
+        </div>
+        
+       
+      </div>
+      <button class="carousel-btn next">➡</button>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="section contact">
+    <h2>Contacto</h2>
+    <p>📧 <a href="mailto:lnrsjorge@gmail.com">lnrsjorge@gmail.com</a></p>
+    <p>💼 
+  <a href="https://www.linkedin.com/in/linares-jorge-brito" target="_blank" rel="noopener noreferrer">
+    www.linkedin.com/in/linares-jorge-brito
+  </a>
+</p>
+    
+  </section>
+
+  <footer>
+    <p>© 2025 Linares - Analista de Datos</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto 1 - Linares</title>
+  <link rel="stylesheet" href="../style.css">
+
+  <style>
+    /* Ajustes específicos para este proyecto */
+    .section p:first-of-type {
+      max-width: 1220px;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    .section ul {
+      max-width: 1220px;
+      margin: 15px auto 0 auto;
+      text-align: left;
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .section h2 {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 class="logo">Linares<span>.</span></h1>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../index.html#proyectos">Proyectos</a></li>
+        <li><a href="../index.html#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="section">
+    <h2>📊 FastAPI - Sistema de Gestión Escolar</h2>
+    
+    <p>
+      Este proyecto consiste en una aplicación desarrollada con <b>FastAPI</b> para la gestión de datos en una institución educativa.
+      La aplicación permite registrar, actualizar, consultar y eliminar información de:
+    </p>
+
+    <ul>
+      <li>👩‍🎓 <b>Estudiantes</b>: nombre, grado, curso y especialidad</li>
+      <li>👨‍🏫 <b>Profesores</b>: nombre y materia impartida</li>
+      <li>👨‍💼 <b>Empleados</b>: nombre y departamento</li>
+    </ul>
+
+    <img src="../img/fastapi1.png" alt="Vista del sistema escolar con FastAPI" style="margin-top:20px; max-width:80%; border-radius:10px;">
+
+    <p style="margin-top:20px;">
+      Este sistema implementa operaciones <b>CRUD</b> (Create, Read, Update, Delete) conectadas a una base de datos mediante <b>SQLAlchemy</b>,
+      además de renderizar páginas con <b>Jinja2</b> y manejar estilos con archivos estáticos (HTML y CSS).
+    </p>
+
+    <p style="margin-top:10px;">
+      Herramientas utilizadas: <b>FastAPI, SQLAlchemy, Jinja2, HTML, CSS</b>.
+    </p>
+
+    <a href="../index.html#proyectos" class="back-btn">⬅️ Volver</a>
+  </section>
+
+  <footer>
+    <p>© 2025 Linares - Analista de Datos</p>
+  </footer>
+</body>
+</html>
+
